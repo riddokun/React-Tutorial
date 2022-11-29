@@ -1,6 +1,6 @@
 .form-container {
   width: 850px;
-  height: 778px;
+  height: 900px;
   margin-left: auto;
   margin-right: auto;
   border: 2px solid black;
@@ -39,6 +39,16 @@ font-size: 12px;
 .prior-instruction,
 p{
   font-size: 10px;
+
+
+}
+.pc-information{
+  position: relative;
+  bottom: 90px;
+}
+
+.pc-billing-container{
+  display: flex;
 
 
 }

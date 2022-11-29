@@ -2,6 +2,8 @@ import './App.css';
 import React from 'react';
 import { Component } from 'react';
 import Information from './components/customerInformation'
+import PC from './components/pcInformation'
+import Billing from './components/billingPurpose'
 
 
 
@@ -31,8 +33,16 @@ class App extends Component{
         {/* End of header */}
 
         </div>
+        {/* Using componwnt Customer information */}
         <h1>Customer Information:</h1>
         <Information/>
+
+        {/* Start of PC information component */}
+        <h1 className="pc-information">INFORMATION ABOUT YOUR PC:</h1>
+        <div className='pc-billing-container'>
+         <div><PC/></div>
+         <div className='billing'> <Billing/></div>
+        </div>
 
 
       </div>
