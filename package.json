@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@material/textfield": "^14.0.0",
+    "react-box": "^2.0.0"
+  }
+}
