@@ -4,6 +4,8 @@ import { Component } from 'react';
 import Information from './components/customerInformation'
 import PC from './components/pcInformation'
 import Billing from './components/billingPurpose'
+import Problem from './components/issueBox'
+import Mentions from './components/thingsToMentionList'
 
 
 
@@ -42,6 +44,14 @@ class App extends Component{
         <div className='pc-billing-container'>
          <div><PC/></div>
          <div className='billing'> <Billing/></div>
+        </div>
+        {/* Start of telling us what wrong with your system */}
+        <h1 className='problem'>TELL US WHAT'S WRONG WITH YOUR COMPUTER:</h1>
+        <div className=' problem-mention-container'>
+        <div><Problem/></div>
+        <div className=' mention'>
+        <Mentions/>
+          </div>
         </div>
 
 

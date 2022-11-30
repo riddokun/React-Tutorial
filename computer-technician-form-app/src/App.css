@@ -52,3 +52,16 @@ p{
 
 
 }
+.problem{
+  position: relative;
+  bottom: 90px;
+}
+.problem-mention-container{
+  display: flex;
+}
+.mention{
+  position: relative;
+  bottom: 90px;
+  left: 50px;
+  font-size: 9px;
+}
