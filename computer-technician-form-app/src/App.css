@@ -65,3 +65,8 @@ p{
   left: 50px;
   font-size: 9px;
 }
+
+.underline{
+  font-weight: bold;
+  text-decoration: underline;
+}

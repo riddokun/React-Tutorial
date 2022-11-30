@@ -25,7 +25,7 @@ class App extends Component{
             <p> Monday-Friday (7am-12pm)</p>
           </div>
           <div className="prior-instruction">
-            <p>PLEASE READ BEFORE TURNING IN SYSTEM.</p>
+            <p className='underline'>PLEASE READ BEFORE TURNING IN SYSTEM.</p>
             <p>Make sure you give us any CDs or cables that came </p>
             <p> with the system at the time of turn in. These items</p>
             <p>may result in the delay of your repair . Imagine</p>
